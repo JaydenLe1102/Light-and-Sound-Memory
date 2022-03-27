@@ -1,0 +1,190 @@
+/* a minimalist set of CSS resets */
+
+body {
+	margin: 1rem;
+	font-family: sans-serif;
+	line-height: 1.5;
+	background-color: slategrey;
+	color: white;
+}
+
+h1 {
+	font-family: verdana, arial, sans-serif;
+	text-align: center;
+	font-size: 35px;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(11, 121, 9, 1) 27%,
+		rgba(23, 169, 199, 1) 100%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+p {
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+button {
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.header-containter {
+	display: flex;
+	flex-wrap: wrap;
+	/* background-color: DodgerBlue; */
+	height: 100px;
+	justify-content: center;
+}
+
+.header-containter > div {
+	margin: 10px;
+	text-align: center;
+}
+
+#headerbutton {
+	line-height: 75px;
+}
+
+.header {
+	border: 5px solid #ffff00;
+	width: 100px;
+	height: 70px;
+}
+
+.header > h2 {
+	font-size: 18px;
+	position: relative;
+	top: -15px;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(11, 121, 9, 1) 27%,
+		rgba(23, 169, 199, 1) 100%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+}
+
+.header > p {
+	font-size: 20px;
+	position: relative;
+	top: -35px;
+}
+
+#gameButtonArea {
+	margin: auto;
+	width: fit-content;
+	padding: 10px;
+}
+
+#gameButtonArea > div > button {
+	width: 200px;
+	height: 200px;
+	margin: 2px;
+}
+
+.hidden {
+	display: none;
+}
+
+#button1 {
+	background: lightgreen;
+}
+
+#button2 {
+	background: lightblue;
+}
+
+#button3 {
+	background: pink;
+}
+
+#button4 {
+	background: lightyellow;
+}
+
+#button1:active,
+#button1.lit {
+	background: green;
+}
+
+#button2:active,
+#button2.lit {
+	background: blue;
+}
+#button3:active,
+#button3.lit {
+	background: red;
+}
+#button4:active,
+#button4.lit {
+	background: yellow;
+}
+
+#button5 {
+	background: rgb(170, 106, 157);
+}
+
+#button6 {
+	background: rgb(204, 164, 104);
+}
+
+#button7 {
+	background: rgb(86, 221, 203);
+}
+
+#button8 {
+	background: rgb(139, 118, 167);
+}
+
+#button5:active,
+#button5.lit {
+	background: rgb(93, 7, 119);
+}
+
+#button6:active,
+#button6.lit {
+	background: rgb(219, 136, 11);
+}
+#button7:active,
+#button7.lit {
+	background: rgb(3, 71, 20);
+}
+#button8:active,
+#button8.lit {
+	background: rgb(167, 19, 212);
+}
+
+.ranking > p {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	margin: 30px;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(38, 190, 42, 1) 52%,
+		rgba(12, 187, 223, 1) 100%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#rankdiv {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
+.appearborder {
+	border: 5px solid #ffff00;
+}
