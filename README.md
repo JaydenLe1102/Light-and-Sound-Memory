@@ -6,7 +6,7 @@ Submitted by: **Trinh Nhu Khang (Jayden) Le**
 
 Time spent: **10** hours spent in total
 
-Link to project: https://glitch.com/edit/#!/goofy-material-attention?path=script.js%3A83%3A0
+Link to project: https://glitch.com/edit/#!/goofy-material-attention?path=README.md%3A1%3A0
 
 ## Required Functionality
 
